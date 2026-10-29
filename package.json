@@ -1,0 +1,16 @@
+{
+  "name": "wa-order-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Group Order to Google Sheets Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "pino": "^9.2.0",
+    "qrcode": "^1.5.3"
+  }
+}
